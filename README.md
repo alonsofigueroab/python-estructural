@@ -1,10 +1,17 @@
 # Estructuras Python
 
-Este repositorio contiene scripts desarrollados en Python para apoyar cálculos estructurales de elementos en acero y hormigón armado, siguiendo normativas ACI, AISC y NCh.  
+Repositorio con scripts desarrollados en Python para apoyar cálculos estructurales de elementos en acero y hormigón armado, siguiendo normativas ACI, AISC y NCh.
 
-Actualmente se incluyen:
-- Verificación de perfiles W a flexión (acero).
+## Contenido actual
+
+- Verificación de perfiles W a flexión simple (acero).
 - Diseño de secciones rectangulares a flexión simple (hormigón).
 
-El proyecto está en desarrollo activo y sirve como base para automatizaciones en ingeniería estructural.
->>>>>>> b61284a (Primer commit - proyecto ingeniería estructural)
+## Próximos desarrollos
+
+- Implementación de análisis de espectro de respuesta sísmica basado en la norma chilena NCh 2369:23/25.
+- Automatizaciones para cálculos de fundaciones y análisis dinámicos.
+
+## Uso
+
+Los scripts están organizados en la carpeta `src/` según el material y tipo de cálculo.
